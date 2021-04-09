@@ -12,6 +12,9 @@ const ApiService = {
             : res.json()
         )
   },
+  saveNewTracker(name, counter, timer, occuredAt) {
+    console.log(`name ${name} counter ${counter}, timer ${timer}, occuredAt ${occuredAt}`);
+  }
 }
 
 export default ApiService
